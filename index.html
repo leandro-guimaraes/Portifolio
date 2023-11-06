@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfólio Leandro Guimarães Ribeiro</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="icon" href="coloque-aqui-o-link-para-seu-ícone-favicon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <video autoplay muted loop id="background-video">
+      <source
+        src="./img/black_and_white_video_of_man_infront_of_the_computer (720p).mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <a class="logo" href="#home">
+          <img
+            src="./img/Blue Modern Simple Technology Logo (1).png"
+            alt="Seu Logo"
+          />
+        </a>
+        <nav>
+          <ul class="nav-bar">
+            <div class="bg"></div>
+            <li><a class="nav-link active" href="#home">Início</a></li>
+            <li><a class="nav-link" href="#projects">Projetos</a></li>
+            <li><a class="nav-link" href="#contact">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <!-- Vertical line -->
+        <div class="VerticalBar">
+          <img src="./img/iconelateral.png" class="PrimaryIcon" />
+          <div class="Name">Full</div>
+          <div class="ID">Stack</div>
+          <div class="Bar"></div>
+        </div>
+
+        <!-- Home -->
+        <div>
+          <div class="filter"></div>
+          <section class="intro">
+            <div class="profile-image">
+              <img
+                src="./img/389f7c58-6cf7-4a38-b87c-9ad5ec3f2f6a.png"
+                alt="Foto de Perfil"
+              />
+            </div>
+            <h1>
+              LEANDRO GUIMARÃES
+              <hr />
+            </h1>
+            <p>Desenvolvedor web fullstack.</p>
+            <p>Assegurando sistemas robustos e escaláveis.</p>
+            <!-- Stacks -->
+            <div class="stacks">
+              <ul class="stack-list">
+                <li><img src="./img/csharp.png" alt="Stack 1" /></li>
+                <li><img src="./img/git.png" alt="Stack 2" /></li>
+                <li><img src="./img/html.png" alt="Stack 3" /></li>
+                <li><img src="./img/javascript.png" alt="Stack 4" /></li>
+                <li><img src="./img/netcore.png" alt="Stack 5" /></li>
+                <li><img src="./img/postgresql.png" alt="Stack 6" /></li>
+                <li><img src="./img/vscode.png" alt="Stack 7" /></li>
+                <li><img src="./img/react.png" alt="Stack 8" /></li>
+                <li><img src="./img/node.png" alt="Stack 9" /></li>
+                <!-- Adicione mais imagens de stack conforme necessário -->
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <!-- Projects -->
+        <h3>Projetos</h3>
+        <section class="hero-section" id="projects">
+          <div class="card-grid">
+            <a
+              class="card"
+              href="https://github.com/leandro-guimaraes/ApiConsumer_Cache_Redis"
+            >
+              <div
+                class="card__background"
+                style="background-image: url('./img/APIs.png')"
+              ></div>
+              <div class="card__content">
+                <p class="card__category"><i class="fab fa-github"></i></p>
+                <h3 class="card__heading">ApiConsumer Cache Redis</h3>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/leandro-guimaraes/ApiProducer_Cache_Redis"
+            >
+              <div
+                class="card__background"
+                style="background-image: url('./img/banco-de-dados.png')"
+              ></div>
+              <div class="card__content">
+                <p class="card__category"><i class="fab fa-github"></i></p>
+                <h3 class="card__heading">ApiProducer Cache Redis</h3>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/leandro-guimaraes/MassTransitAllog"
+            >
+              <div
+                class="card__background"
+                style="
+                  background-image: url('./img/all-aboard-with-masstransit-removebg-preview.png');
+                "
+              ></div>
+              <div class="card__content">
+                <p class="card__category"><i class="fab fa-github"></i></p>
+                <h3 class="card__heading">MassTransit</h3>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/leandro-guimaraes/Projeto-Web-site-Loja"
+            >
+              <div
+                class="card__background"
+                style="background-image: url('./img/site.png')"
+              ></div>
+              <div class="card__content">
+                <p class="card__category"><i class="fab fa-github"></i></p>
+                <h3 class="card__heading">Projeto Web siteLoja</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- Formação -->
+
+        <section class="education" id="education">
+          <div class="education-item">
+            <h3>Formação</h3>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            <p>Anhanguera - 2023 / 2025</p>
+            <p>Cursando</p>
+          </div>
+          <div class="education-item">
+            <h4>Curso de Desenvolvimento Web Fullstack</h4>
+            <p>Udesc - 2022</p>
+          </div>
+          <div class="education-item">
+            <h4>Programação em C#</h4>
+            <p>Entra21 - 2022</p>
+          </div>
+
+          <!-- Adicione mais itens de formação conforme necessário -->
+        </section>
+
+        <!-- Contact -->
+        <div id="contact">
+          <h3>
+            Contato
+          </h3>
+          <p>Sinta-se à vontade para entrar em contato.</p>
+          <div class="container">
+            <form
+              target="_blank"
+              action="https://formsubmit.co/olamundo.ti@gmail.com"
+              method="POST"
+              class="custom-form"
+            >
+              <div class="form-group">
+                <label for="name">Nome:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="Insira seu nome"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input
+                  type="phone"
+                  id="phone"
+                  name="phone"
+                  class="form-control"
+                  placeholder="Insira seu telefone"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Insira seu email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Sua mensagem:</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  name="message"
+                  rows="10"
+                  placeholder="Digite sua mensagem"
+                  required
+                ></textarea>
+              </div>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">  
+              <button type="submit" class="btn btn-lg btn-dark btn-block">
+                Enviar
+              </button>
+            </form>
+            <div id="success-message" style="display: none">
+              <p>Seu formulário foi enviado com sucesso!</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <a href="https://discord.gg/68VADs2U" target="_blank"
+              ><i class="fab fa-discord"></i
+            ></a>
+            <a href="https://wa.me/5547997781626" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://github.com/leandro-guimaraes" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/leandro-guimaraes-ribeiro/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="copyright">
+        <p class="copyright-footer">&copy; 2023 LEANDRO G.R.</p>
+      </div>
+    </footer>
+  </body>
+</html>
